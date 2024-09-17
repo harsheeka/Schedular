@@ -71,16 +71,3 @@ Average waiting time: 6.2
 - Implement priority inversion handling.
 - Add graphical visualization of process scheduling.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to contribute to this project by forking the repository and submitting a pull request!
-
----
-
-### Contact
-
-For any questions or suggestions, please feel free to contact me at [your-email@example.com].
