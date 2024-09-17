@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is an implementation of **process scheduling** for an operating systems class. It simulates two popular scheduling algorithms: **Round-Robin** and **Priority-Based Scheduling**. The user can create multiple processes, provide their burst times and priorities, and then select which scheduling algorithm to run. The program will simulate the execution of the processes and calculate key performance metrics such as **average waiting time**.
+This project implements **process scheduling** for my operating systems class. It simulates two popular scheduling algorithms: **Round-Robin** and **Priority-Based Scheduling**. The user can create multiple processes, provide their burst times and priorities, and then select which scheduling algorithm to run. The program will simulate the execution of the processes and calculate key performance metrics such as **average waiting time**.
 
 ## Features
 
@@ -15,14 +15,6 @@ This project is an implementation of **process scheduling** for an operating sys
   - Provide additional parameters like time quantum for Round-Robin.
 - **Performance Metrics**: Calculates and displays the average waiting time for both scheduling algorithms.
   
-## File Structure
-
-```
-.
-├── README.md                # Project description and instructions
-├── process_scheduler.c       # Source code for process scheduling implementation
-└── Makefile                 # Makefile for building the project
-```
 
 ## How to Run
 
@@ -33,11 +25,7 @@ This project is an implementation of **process scheduling** for an operating sys
     cd os-process-scheduler
     ```
 
-2. Compile the code using the provided Makefile:
-
-    ```bash
-    make
-    ```
+2. Compile the code in your terminal.
 
 3. Run the program:
 
@@ -76,11 +64,10 @@ Average waiting time: 6.2
 ## Requirements
 
 - **C compiler** (e.g., GCC)
-- **Make** for building the project
 
 ## Future Enhancements
 
-- Add support for more scheduling algorithms (e.g., Shortest Job First, First-Come First-Serve).
+- Support more scheduling algorithms (e.g., Shortest Job First, First-Come First-Serve).
 - Implement priority inversion handling.
 - Add graphical visualization of process scheduling.
 
